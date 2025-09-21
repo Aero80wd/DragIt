@@ -18,7 +18,8 @@ add_executable(DragIt main.cpp
         MainWindow.h
         DragWidget.cpp
         DragWidget.h
-res.qrc)
+res.qrc
+icon.rc)
 target_link_libraries(DragIt
         Qt::Core
         Qt::Gui
